@@ -40,12 +40,12 @@ Weil ich schon viel Mühe und Kapital in die Optimierung des Gerätes gesteckt h
 📌 Du findest im Verzeichnis `Dokumentation/Bilder Hauptplatine` entsprechende Bilder.  
 
 ## Serieller Betrieb der Motortreiber
-📌 Die Motortreiber werden mit dieser Firmware seriell ausgelesen / konfiguriert.  
-📌 Schaue dir dazu das Bild `Dokumentation/Bilder Hauptplatine/Motortreiber seriell...` an.
-📌 Löte die 1 kOhm Widerstände an der richtigen Stelle ein!
-📌 Löte alles gemäß der Beschreibung im Bild an.
-📌 Es werden KEINE Brücken bei "M0", "M1" und "M2" an den Motortreiber-Steckplätzen gesteckt.
-📌 Bringe unbedingt die Lötbrücke AUF den Motortreibern an! Gehe dabei vorsichtig vor!
+📌 Die Motortreiber werden mit dieser Firmware seriell ausgelesen / konfiguriert.    
+📌 Schaue dir dazu das Bild `Dokumentation/Bilder Hauptplatine/Motortreiber seriell...` an.  
+📌 Löte die 1 kOhm Widerstände an der richtigen Stelle ein!  
+📌 Löte alles gemäß der Beschreibung im Bild an.  
+📌 Es werden KEINE Brücken bei "M0", "M1" und "M2" an den Motortreiber-Steckplätzen gesteckt.  
+📌 Bringe unbedingt die Lötbrücke AUF den Motortreibern an! Gehe dabei vorsichtig vor!  
 📌 Der Motorstrom, die Anzahl der Schritte etc. werden somit seriell übertragen.
 
 
