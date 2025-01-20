@@ -22,19 +22,26 @@ Weil ich schon viel Mühe und Kapital in die Optimierung des Gerätes gesteckt h
 - [Diese Endschalter verwende ich...](https://www.roboter-bausatz.de/p/optischer-endschalter-mit-kabelsatz-3-pin-50cm-fuer-cnc-3d-drucker-oder-tueren)
 
 ## Hinweis
-- ⚠️️ **Alle Temperatursensoren müssen auf 100kOhm geändert werden** ⚠️
-- ⚠️️ **Die originalen vom CTC-Drucker können nicht verwendet werden** ⚠️  
+- ⚠️️ **Alle Temperatursensoren müssen auf 100 kOhm geändert werden** ⚠️
+- ⚠️️ **Die originalen Temperatursensoren vom CTC-Drucker können nicht verwendet werden** ⚠️  
 - ⚠️️ **Diese Firmware ist konfiguriert für einen Drucker mit:**  
 📌 Einem Extruder mit 24V Heizpatrone  
 📌 Einem Heizbett (ich verwende das originale von CTC)    
 📌 Einem Extruder-Lüfter (ich empfehle einen Papst-Lüfter)  
-📌 Motortreibern vom Typ TMC2208 (und nur diese...)  
 📌 Einem Bauteil-Lüfter (ebenfalls Papst-Lüfter)  
+📌 Motortreibern vom Typ TMC2208 (und nur diese...)  
 📌 Keinem Bed-Leveling-Sensor   
 📌 Extruder-Temperatursensor mit 100 kOhm  
 📌 Heizbett-Temperatursensor mit 100 kOhm  
-📌 Display TS35 und dem Drehencoder an der Seite  
-📌 Übertragung der Druck-Dateien über USB
+📌 Display TS35 und dem Drehencoder an der Seite (und nur dieses...)  
+📌 Übertragung der Druck-Dateien über USB (und nur so...)
+
+## WiFi-Anbindung des Druckers
+- [Mit MKS Robin WiFi Modul...](https://www.roboter-bausatz.de/p/mks-robin-tft-wifi-modul?srsltid=AfmBOopBdXZmDU004fd81v3fnUxSQhNalMm-QTwlBtQZSpPEPU3y1NKb)  
+- Dazu gibt es eine App, die sich mit dem Modul verbindet.  
+- Problem: Es spricht mit der chinesischen Datenkraken-Cloud...  
+- Dafür Plug-and-Play und kompatibel mit dem Board !  
+
 
 ## Nützliche Features gegenüber dem original CTC
 
@@ -47,11 +54,12 @@ Weil ich schon viel Mühe und Kapital in die Optimierung des Gerätes gesteckt h
 
 ## Zu dieser Firmware
 - ⚠️️ **Diese Firmware ist NUR für einen CTC-Drucker**⚠️
-- ⚠️️ **Aus dem geforkten Marlin-Repo wurde alles entfernt was nichts mit diesem Drucker zu tun hat.** ⚠️
+- ⚠️️ **Aus dem geforkten Marlin-Repo wurde fast alles entfernt was nichts mit diesem Drucker zu tun hat.** ⚠️  
 - ⚠️️ **Alle "China-Pling-Pling" Icons wurden entfernt, und gegen Material-UI-Icons getauscht.** ⚠️
 - ⚠️️ **Personen ohne Erfahrung sollten nichts am Projekt ändern. Es ist komplex.** ⚠️
 - ⚠️️ **Der Drucker läuft mit dieser Firmware und den Watterot Treibern sehr schön.** ⚠️
 - ⚠️️ **Die Ansteuerung der Motortreiber erfolgt über UART**⚠️
+- 📌 **Alles auskommentierte könnte man auch noch entfernen, ich hatte aber keine Lust mehr**
 
 ## Projekt kompilieren
 
