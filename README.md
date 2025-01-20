@@ -36,6 +36,19 @@ Weil ich schon viel Mühe und Kapital in die Optimierung des Gerätes gesteckt h
 📌 Display TS35 und dem Drehencoder an der Seite (und nur dieses...)  
 📌 Übertragung der Druck-Dateien über USB (und nur so...)
 
+## Anschluss an das Robin Nano Board
+📌 Du findest im Verzeichnis `Dokumentation/Bilder Hauptplatine` entsprechende Bilder.  
+
+## Serieller Betrieb der Motortreiber
+📌 Die Motortreiber werden mit dieser Firmware seriell ausgelesen / konfiguriert.  
+📌 Schaue dir dazu das Bild `Dokumentation/Bilder Hauptplatine/Motortreiber seriell...` an.
+📌 Löte die 1 kOhm Widerstände an der richtigen Stelle ein!
+📌 Löte alles gemäß der Beschreibung im Bild an.
+📌 Es werden KEINE Brücken bei "M0", "M1" und "M2" an den Motortreiber-Steckplätzen gesteckt.
+📌 Bringe unbedingt die Lötbrücke AUF den Motortreibern an! Gehe dabei vorsichtig vor!
+📌 Der Motorstrom, die Anzahl der Schritte etc. werden somit seriell übertragen.
+
+
 ## WiFi-Anbindung des Druckers
 - [Mit MKS Robin WiFi Modul...](https://www.roboter-bausatz.de/p/mks-robin-tft-wifi-modul?srsltid=AfmBOopBdXZmDU004fd81v3fnUxSQhNalMm-QTwlBtQZSpPEPU3y1NKb)  
 - Dazu gibt es eine App, die sich mit dem Modul verbindet.  
