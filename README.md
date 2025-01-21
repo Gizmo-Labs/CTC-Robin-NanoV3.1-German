@@ -88,6 +88,8 @@ Da ich diesen nicht nutze, und dies unnötige Spielerei aus meiner Sicht ist, ka
 
 ## Anpassung von Icons + Bildumwandlung in das .bin-Format
 
+📌 Du findest die Icons in `Dokumentation/Hier sind die Icons`.  
+
 - Öffne den [LVGL Online Image Converter hier!](https://lvgl.io/tools/imageconverter)  
 - Wähle LVGL v8
 - Öffne deine BMP-Bilddatei.
